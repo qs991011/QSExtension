@@ -1,14 +1,13 @@
 //
-//  QSView.swift
-//  swiftjson
+//  UIView+QS.swift
+//  Test
 //
-//  Created by qiansheng on 2017/9/15.
-//  Copyright © 2017年 qiansheng. All rights reserved.
+//  Created by qiansheng on 2019/4/16.
+//  Copyright © 2019 GCI. All rights reserved.
 //
 
 import Foundation
 import UIKit
-
 extension UIView {
     
     var left : CGFloat {
@@ -128,6 +127,6 @@ extension UIView {
             return nil
         }
     }
-
+    
     
 }
