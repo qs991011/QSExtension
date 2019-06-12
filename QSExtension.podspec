@@ -4,6 +4,7 @@ Pod::Spec.new do |s|
     s.license = 'MIT'
     s.requires_arc = true
     s.version = '0.0.7'
+    s.swift_version = "5.0"
     s.homepage = "https://github.com/qs991011/QSExtension"
     s.name = "QSExtension"
     s.source_files = "Source/*.swift"
@@ -12,7 +13,7 @@ Pod::Spec.new do |s|
     s.summary = 'Common extensions'
     s.description = 'simple a extension'
 
-    s.ios.deployment_target = '12.0'
+    s.ios.deployment_target = '11.0'
 
     s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
 end
