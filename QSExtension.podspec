@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.summary = 'Common extensions'
     s.description = 'simple a extension'
 
-    s.ios.deployment_target = '8.0'
+    s.ios.deployment_target = '12.0'
 
     s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
 end
