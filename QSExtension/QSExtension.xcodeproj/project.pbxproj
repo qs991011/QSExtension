@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D782CAE622E5699D000AC243 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782CAE322E5699C000AC243 /* Log.swift */; };
+		D782CAE722E5699D000AC243 /* CALayer+QS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782CAE422E5699C000AC243 /* CALayer+QS.swift */; };
+		D782CAE822E5699D000AC243 /* Date+QS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782CAE522E5699C000AC243 /* Date+QS.swift */; };
 		D7B7A75A22B08E9900ABBF29 /* QSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B7A75822B08E9900ABBF29 /* QSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7B7A76222B08EAE00ABBF29 /* UIView+QS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B7A76122B08EAE00ABBF29 /* UIView+QS.swift */; };
 		D7B7A76422B08F1000ABBF29 /* Collection+QS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B7A76322B08F1000ABBF29 /* Collection+QS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D782CAE322E5699C000AC243 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		D782CAE422E5699C000AC243 /* CALayer+QS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+QS.swift"; sourceTree = "<group>"; };
+		D782CAE522E5699C000AC243 /* Date+QS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+QS.swift"; sourceTree = "<group>"; };
 		D7B7A75522B08E9900ABBF29 /* QSExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QSExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B7A75822B08E9900ABBF29 /* QSExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSExtension.h; sourceTree = "<group>"; };
 		D7B7A75922B08E9900ABBF29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +68,9 @@
 			children = (
 				D7B7A76122B08EAE00ABBF29 /* UIView+QS.swift */,
 				D7B7A76322B08F1000ABBF29 /* Collection+QS.swift */,
+				D782CAE322E5699C000AC243 /* Log.swift */,
+				D782CAE422E5699C000AC243 /* CALayer+QS.swift */,
+				D782CAE522E5699C000AC243 /* Date+QS.swift */,
 			);
 			name = Source;
 			path = ../../Source;
@@ -145,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D782CAE822E5699D000AC243 /* Date+QS.swift in Sources */,
 				D7B7A76222B08EAE00ABBF29 /* UIView+QS.swift in Sources */,
 				D7B7A76422B08F1000ABBF29 /* Collection+QS.swift in Sources */,
+				D782CAE622E5699D000AC243 /* Log.swift in Sources */,
+				D782CAE722E5699D000AC243 /* CALayer+QS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
