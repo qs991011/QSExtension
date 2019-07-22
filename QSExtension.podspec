@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
     s.author = {'qiansheng' => '790165729@qq.com'}
     s.license = 'MIT'
     s.requires_arc = true
-    s.version = '0.0.8'
+    s.version = '0.0.9'
     s.swift_version = "5.0"
     s.homepage = "https://github.com/qs991011/QSExtension"
     s.name = "QSExtension"
