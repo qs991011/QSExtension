@@ -7,7 +7,7 @@
 //
 
 import Foundation
-extension Date {
+public extension Date {
     
    var monthlastDay : Int {
         get {

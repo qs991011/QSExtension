@@ -8,7 +8,7 @@
 
 import Foundation
 
-class QSLog {
+public class QSLog {
     static func i<T>(_ message: T,
                   file: String = #file,
                   method: String = #function,

@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-extension CALayer {
+public extension CALayer {
     var left : CGFloat {
         set {
             var frame = self.frame

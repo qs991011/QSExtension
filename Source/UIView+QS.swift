@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-extension UIView {
+public extension UIView {
     
     var left : CGFloat {
         set {
@@ -128,7 +128,7 @@ extension UIView {
         }
     }
     
-    func addSubViews(_ subviews: UIView...) {
+ public   func addSubViews(_ subviews: UIView...) {
         subviews.forEach(addSubview)
     }
     

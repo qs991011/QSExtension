@@ -9,7 +9,7 @@
 import Foundation
 
 
-extension Collection {
+public extension Collection {
     
     
     subscript (safe index: Index) -> Element? {
